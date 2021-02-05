@@ -5,12 +5,18 @@
     android:id="@+id/main_navigation"
     app:startDestination="@id/home_fragment"
     tools:ignore="UnusedNavigation">
+
     <fragment
         android:id="@id/home_fragment"
         android:name="com.example.jetpackdemo.ui.main.HomeFragment"
         android:label="首页"
         tools:layout="@layout/fragment_home"
-        />
+        >
+        <action
+            android:id="@id/home_mmkv"
+            app:destination="@id/fragment_kkmv"
+            />
+    </fragment>
     <fragment
         android:id="@id/message_fragment"
         android:name="com.example.jetpackdemo.ui.main.MessageFragment"
@@ -20,7 +26,11 @@
     <fragment
         android:id="@id/myself_fragment"
         android:name="com.example.jetpackdemo.ui.main.MyselfFragment"
-        android:label="我"
-        tools:layout="@layout/fragment_myself"
-        />
+        android:label="我" />
+
+    <!--主页外的一级页面-->
+    <fragment
+        android:id="@id/fragment_kkmv"
+        android:name="com.example.jetpackdemo.ui.fragment.MmkvFragment"
+        android:label="数据存储" />
 </navigation>

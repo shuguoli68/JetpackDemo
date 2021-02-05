@@ -51,7 +51,7 @@ dependencies {
     //glide
     implementation "com.github.bumptech.glide:glide:latest.release"
     implementation "jp.wasabeef:glide-transformations:latest.release"
-
+*/
     //mmkv
-    implementation "com.tencent:mmkv-static:latest.release"*/
+    implementation "com.tencent:mmkv-static:latest.release"
 }

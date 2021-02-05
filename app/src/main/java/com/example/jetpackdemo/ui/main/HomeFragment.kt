@@ -1,7 +1,10 @@
 package com.example.jetpackdemo.ui.main
 
+import android.os.Bundle
+import androidx.navigation.Navigation
 import com.example.jetpackdemo.R
 import com.example.jetpackdemo.base.BaseFragment
+import kotlinx.android.synthetic.main.fragment_home.*
 
 /**
  * create by shuguo
@@ -15,6 +18,10 @@ class HomeFragment : BaseFragment(){
     }
 
     override fun initUI() {
+        item_text.setOnClickListener {
+            val args = Bundle()
+            Navigation.findNavController(it).navigate(R.id.home_mmkv, args)
+        }
     }
 
     override fun initData() {

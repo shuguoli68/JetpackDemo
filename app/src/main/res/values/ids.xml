@@ -7,4 +7,7 @@
     <item name="content" type="id" />
     <item name="navigation" type="id" />
     <item name="toolbar_title" type="id" />
+    <item name="item_text" type="id" />
+    <item name="fragment_kkmv" type="id" />
+    <item name="home_mmkv" type="id" />
 </resources>
