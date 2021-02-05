@@ -34,4 +34,24 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+    //navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:latest.release"
+    implementation "androidx.navigation:navigation-ui-ktx:latest.release"
+    /*// liveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:latest.release"
+    // viewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:latest.release"
+    implementation "androidx.lifecycle:lifecycle-extensions:latest.release"
+    implementation "androidx.fragment:fragment-ktx:latest.release"
+
+    // paging
+    implementation ("androidx.paging:paging-runtime:latest.release")
+
+    //glide
+    implementation "com.github.bumptech.glide:glide:latest.release"
+    implementation "jp.wasabeef:glide-transformations:latest.release"
+
+    //mmkv
+    implementation "com.tencent:mmkv-static:latest.release"*/
 }
