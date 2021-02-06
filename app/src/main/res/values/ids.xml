@@ -11,4 +11,9 @@
     <item name="fragment_kkmv" type="id" />
     <item name="home_mmkv" type="id" />
     <item name="fragment_main" type="id" />
+    <item name="splash_fragment" type="id" />
+    <item name="splash_main" type="id" />
+    <item name="main_fragment" type="id" />
+    <item name="item_layout" type="id" />
+    <item name="all_navigation" type="id" />
 </resources>
